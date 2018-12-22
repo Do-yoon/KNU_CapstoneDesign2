@@ -15,7 +15,7 @@ api = Api(app)
 
 app.config['MYSQL_DATABASE_HOST'] = 'localhost'
 app.config['MYSQL_DATABASE_DB'] = 'food'
-''' add your DB username and password '''
+#add your DB username and password
 app.config['MYSQL_DATABASE_USER'] = ''
 app.config['MYSQL_DATABASE_PASSWORD'] = ''
 mysql.init_app(app)
